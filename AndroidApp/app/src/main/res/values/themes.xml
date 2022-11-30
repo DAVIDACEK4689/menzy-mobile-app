@@ -1,0 +1,13 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.AndroidApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- setting color of foreground content displayed on another color (for example text on button)  -->
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- default background of components -->
+        <item name="android:itemBackground">@android:color/holo_blue_light</item>
+
+    </style>
+
+</resources>

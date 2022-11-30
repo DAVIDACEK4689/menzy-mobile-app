@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- popupmenu items, user can sort by them-->
+    <item
+        android:id="@+id/alphabetically"
+        android:title="@string/alphabetically"/>
+
+    <item
+        android:id="@+id/by_distance"
+        android:title="@string/by_distance"/>
+    <item
+        android:id="@+id/by_stars"
+        android:title="@string/by_rating"/>
+
+</menu>

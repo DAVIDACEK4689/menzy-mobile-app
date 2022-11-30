@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- top bar menu -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_blue_light">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- image of meditating person, show Toast when presses -->
+        <ImageView
+            android:id="@+id/good_mood_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/good_mood_icon"
+            android:contentDescription="@string/good_mood_icon_content" />
+
+        <!-- arrow back to move on previous (base) scene -->
+        <ImageView
+            android:id="@+id/arrow_back_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_back"
+            android:contentDescription="@string/arrow_back_description" />
+
+        <!-- title -->
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/arrow_back_icon"
+            android:text="@string/title_text"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:ignore="RelativeOverlap" />
+
+        <!-- sorting menu, enables sorting options if pressed -->
+        <ImageView
+            android:id="@+id/sort_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/sort_menu_icon"
+            android:contentDescription="@string/sorting_menu_icon" />
+
+    </RelativeLayout>
+</LinearLayout>

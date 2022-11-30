@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- base layout displaying searching options -->
+<!-- align components vertically -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_dark"
+    android:weightSum="11">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/maximal_distance_value"
+        android:gravity="center"
+        android:textSize="20sp"
+        />
+
+        <!-- holding distance spinner -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Spinner
+                android:id="@+id/distance_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_blue_light"
+                android:popupBackground="@android:color/holo_blue_dark"
+                android:contentDescription="@string/spinner_to_set_distance"/>
+
+            <!-- scroll down arrow -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:textAlignment="center"
+                android:padding="20sp"
+                android:src="@drawable/dropdown_arrow"
+                android:contentDescription="@string/spinner_arrow_description" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/minimal_rating"
+            android:gravity="center"
+            android:textSize="20sp"
+            />
+
+        <!-- holding rating spinner -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Spinner
+                android:id="@+id/rating_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_blue_light"
+                android:popupBackground="@android:color/holo_blue_dark"
+                android:contentDescription="@string/spinner_to_set_stars"/>
+
+            <!-- scroll down arrow -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:textAlignment="center"
+                android:padding="20sp"
+                android:src="@drawable/dropdown_arrow"
+                android:contentDescription="@string/spinner_arrow_description"/>
+
+        </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/minimal_capacity"
+        android:gravity="center"
+        android:textSize="20sp"
+        />
+
+    <!-- holding capacity spinner -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Spinner
+            android:id="@+id/capacity_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_light"
+            android:popupBackground="@android:color/holo_blue_dark"
+            android:contentDescription="@string/spinner_to_set_capacity"/>
+
+        <!-- scroll down arrow -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="center"
+            android:padding="20sp"
+            android:src="@drawable/dropdown_arrow"
+            android:contentDescription="@string/spinner_arrow_description"/>
+
+    </RelativeLayout>
+
+    <!-- rest of vertical layout fro saveButton, resetButton and searchButton -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:id="@+id/layoutContainer"
+        android:paddingStart="30sp"
+        android:paddingEnd="30sp">
+
+
+        <!-- empty row -->
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:ignore="NestedWeights" />
+
+        <!-- save user searching preferences -->
+        <Button
+            android:id="@+id/save_preferences_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:text="@string/save_preferences_text" />
+
+        <!-- reset searching values -->
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:text="@string/reset_values_text" />
+
+        <!-- search for canteens -->
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:text="@string/search_canteens_text" />
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+Number of selected item in distanceSpinner, starsSpinner, capacitySpinner, sortingMenu
+6
+5
+4
+0

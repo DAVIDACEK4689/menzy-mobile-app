@@ -1,0 +1,56 @@
+<resources>
+    <!-- used strings and arrays -->
+    <string name="app_name">Menzy</string>
+    <string name="title_text">Menzy-UK</string>
+    <string name="alphabetically">Podle abecedy</string>
+    <string name="by_distance">Podle vzdálenosti</string>
+    <string name="by_rating">Podle hodnocení</string>
+    <string name="spinner_arrow_description">arrow showing that menu can be scrolled down</string>
+    <string name="spinner_to_set_distance">Spinner to set distance</string>
+    <string name="minimal_rating">Minimální hodnocení:</string>
+    <string name="maximal_distance_value">Vzdálenost do cíle:</string>
+    <string name="minimal_capacity">Minimální kapacita:</string>
+    <string name="save_preferences_text">Uložit hodnoty</string>
+    <string name="reset_values_text">Resetovat</string>
+    <string name="search_canteens_text">Vyhledat</string>
+    <string name="spinner_to_set_stars">Spinner to set stars</string>
+    <string name="spinner_to_set_capacity">Spinner to set capacity</string>
+    <string name="sorting_menu_icon">sorting menu icon</string>
+    <string name="good_mood_icon_content">funny icon showing funny toast when pressed</string>
+    <string name="arrow_back_description">icon which enables to move on the previous scene (base scene)</string>
+    <string name="move_back_icon_description">icon which enables to move on previous canteen by sorting order</string>
+    <string name="move_forward_icon_description">icon which enables to move on next canteen by sorting order</string>
+    <string name="canteen_icon">canteen icon</string>
+    <string name="distance">Vdálenost:</string>
+    <string name="rating">Hodnocení:</string>
+    <string name="capacity">Kapacita:</string>
+    <string name="opening_time">po - čt:</string>
+    <string name="friday_opening_time">pátek:</string>
+    <string name="get_canteen_menu">JÍDELNÍČEK</string>
+    <string name="get_route">TRASA</string>
+    <string name="localization_text">Probíhá lokalizace zařízení...</string>
+    <string-array name="distanceTime">
+        <item>500 metrů</item>
+        <item>1 kilometr</item>
+        <item>2 kilometry</item>
+        <item>3 kilometry</item>
+        <item>5 kilometrů</item>
+        <item>10 kilometrů</item>
+        <item>Nerozhoduje</item>
+    </string-array>
+    <string-array name="minimalRating">
+        <item>2 hvězdičky</item>
+        <item>3 hvězdičky</item>
+        <item>3,5 hvězdičky</item>
+        <item>4 hvězdičky</item>
+        <item>4,5 hvězdičky</item>
+        <item>Nerozhoduje</item>
+    </string-array>
+    <string-array name="minimalCapacity">
+        <item>50 míst</item>
+        <item>100 míst</item>
+        <item>150 míst</item>
+        <item>200 míst</item>
+        <item>Nerozhoduje</item>
+    </string-array>
+</resources>
